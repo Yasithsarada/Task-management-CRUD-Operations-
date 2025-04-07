@@ -16,6 +16,7 @@ namespace TrialProjectApi.AppDataContext
         public DbSet<TodoModel> Todos { get; set; }
 
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<TodoModel>().ToTable("TodoAPI").HasKey(x => x.Id);
