@@ -4,4 +4,3 @@ GET {{TrialProjectApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
-
